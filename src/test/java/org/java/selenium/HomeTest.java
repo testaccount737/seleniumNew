@@ -27,7 +27,7 @@ public class HomeTest {
 			searchBox.sendKeys(Keys.RETURN);
 			
 			
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 			
 			
 			driver.quit();
