@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 public class HomeTest {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
 		
@@ -26,6 +26,8 @@ public class HomeTest {
 			searchBox.sendKeys("selenium");
 			searchBox.sendKeys(Keys.RETURN);
 			
+			
+			Thread.sleep(2000);
 			
 			
 			driver.quit();
